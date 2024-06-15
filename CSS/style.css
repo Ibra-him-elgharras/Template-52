@@ -29,4 +29,54 @@ body{
     font-weight: bold;
     margin-top: 18px;
 }
-.wrapper .right .stars
+.wrapper .right .stars{
+    font-size: 18px;
+    color: #e84393;
+    margin-top: 10px;
+}
+.right .about{
+    color: #8d8d8d;
+    font-style: 17px;
+}
+.right button{
+    background-color: #e84393;
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    margin-top: 16px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.right button h1{
+    color: #fff;
+    margin-left: 10px;
+    font-style: 18px;
+    font-weight: 400;
+}
+button:hover{
+    transform: scale(0.98);
+}
+.wrapper .left{
+    background: url(../images/iphone-.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 50%;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.left ul{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
